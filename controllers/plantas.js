@@ -9,7 +9,7 @@ const plantasArray = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 //lista de productos
 const controllers = {
   plantasmenu: (req,res) => {
-      res.render('plantas', {plantasArray})
+      res.render('index', {plantasArray})
   },
 
   detail: (req, res) => {
