@@ -1,7 +1,21 @@
 [
   {
+    "id": 22,
+    "plant_name": "Agapanthus africanus - Agapanto",
+    "imagen": "agapanto.jpg",
+    "nativa": "Sudáfrica",
+    "temperatura_ideal": "10-30°C",
+    "luz_ideal": "Pleno sol a sombra parcial",
+    "apta_sombra": true,
+    "apta_sol_directo": true,
+    "pestes_comunes": ["Caracoles", "Babosas", "Áfidos"],
+    "floracion_hemisferio_sur": "Verano (diciembre a febrero)",
+    "suelo": "Bien drenado, rico en materia orgánica, pH 6.0-7.5"
+  },
+
+  {
     "id":1,
-    "imagen": "helecho-misionero2.jpg",
+    "imagen": "helecho-misionero.jpg",
     "plant_name":"Helecho Misionero - Ctenitis Submarginalis",
     "nativa": "América tropical y subtropical",
     "temperatura_ideal": "20-30°C",
@@ -12,6 +26,36 @@
     "floracion_hemisferio_sur": "No florece (es un helecho)",
     "suelo": "Ácido (pH 5.5-6.5)"
   },
+  {
+    "id": 8,
+    "plant_name": "Canna indica - Achira - Indian shot",
+    "imagen": "canna-indica.jpg",
+    "nativa": "América tropical y subtropical",
+    "temperatura_ideal": "15-35°C",
+    "luz_ideal": "Pleno sol a sombra parcial",
+    "apta_sombra": true,
+    "apta_sol_directo": true,
+    "pestes_comunes": ["Ácaros", "Cochinillas", "Pulgones"],
+    "floracion_hemisferio_sur": "Primavera a otoño (septiembre a mayo)",
+    "suelo": "Rico en materia orgánica, húmedo pero bien drenado, pH 6.0-7.5"
+  },
+  
+  {
+    "id":15,
+      "plant_name": "Hedychium coronarium",
+     "imagen": "hedychium.jpg",
+
+    "nativa": "Este de los Himalayas y sur de China",
+    "temperatura_ideal": "15-30°C",
+    "luz_ideal": "Pleno sol a sombra parcial",
+    "apta_sombra": true,
+    "apta_sol_directo": true,
+    "pestes_comunes": ["Ácaros", "Cochinillas"],
+    "floracion_hemisferio_sur": "Verano a otoño",
+    "suelo": "Rico en materia orgánica, húmedo, pH ligeramente ácido a neutro (6.0-7.0)"
+  },
+
+
   {
     "id":2,
     "imagen": "loefgrenii.jpg",
@@ -182,20 +226,7 @@
     "floracion_hemisferio_sur": "Verano",
     "suelo": "Rico en materia orgánica, constantemente húmedo, pH ligeramente ácido a neutro (6.0-7.0)"
   },
-  {
-    "id":15,
-      "plant_name": "Hedychium coronarium",
-     "imagen": "hedychium.jpg",
-
-    "nativa": "Este de los Himalayas y sur de China",
-    "temperatura_ideal": "15-30°C",
-    "luz_ideal": "Pleno sol a sombra parcial",
-    "apta_sombra": true,
-    "apta_sol_directo": true,
-    "pestes_comunes": ["Ácaros", "Cochinillas"],
-    "floracion_hemisferio_sur": "Verano a otoño",
-    "suelo": "Rico en materia orgánica, húmedo, pH ligeramente ácido a neutro (6.0-7.0)"
-  },
+  
   {
     "id":16,
       "plant_name":   "Kalanchoe thyrsiflora",
