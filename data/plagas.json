@@ -1,0 +1,167 @@
+[
+      {
+        "id": 1,
+        "imagen": "cochinilla.jpg",
+        "plaga_name": "Cochinilla",
+        "temporada_en_que_aparece": "Primavera-Verano",
+        "temperatura_mejor_desarrollo": "20-30°C",
+        "combatirla_con_vinagre": true,
+        "combatirla_con_agua_oxigenada": false,
+        "daño_que_hacen": "Succionan la savia de las plantas y secretan melaza",
+        "remedio_casero_que_mejor_funciona": "Aceite de neem diluido en agua"
+      },
+      {
+        "id": 2,
+        "imagen": "hongos.jpg",
+        "plaga_name": "Hongos",
+        "temporada_en_que_aparece": "Todo el año",
+        "temperatura_mejor_desarrollo": "15-25°C",
+        "combatirla_con_vinagre": true,
+        "combatirla_con_agua_oxigenada": true,
+        "daño_que_hacen": "Pudren raíces, tallos y hojas",
+        "remedio_casero_que_mejor_funciona": "Bicarbonato de sodio diluido en agua"
+      },
+      {
+        "id": 3,
+        "imagen": "hongo-negrilla.jpg",
+        "plaga_name": "Negrilla",
+        "temporada_en_que_aparece": "Primavera-Verano",
+        "temperatura_mejor_desarrollo": "18-26°C",
+        "combatirla_con_vinagre": false,
+        "combatirla_con_agua_oxigenada": true,
+        "daño_que_hacen": "Manchas negras en hojas que pueden causar defoliación",
+        "remedio_casero_que_mejor_funciona": "lavado con jabon potasico"
+      },
+      {
+        "id": 4,
+        "imagen": "caracoles.jpg",
+        "plaga_name": "Caracoles",
+        "temporada_en_que_aparece": "Primavera-Otoño",
+        "temperatura_mejor_desarrollo": "15-20°C",
+        "combatirla_con_vinagre": true,
+        "combatirla_con_agua_oxigenada": false,
+        "daño_que_hacen": "Comen hojas y tallos tiernos",
+        "remedio_casero_que_mejor_funciona": "Cáscaras de huevo trituradas alrededor de las plantas"
+      },
+      {
+        "id": 5,
+        "imagen": "babosas.jpg",
+        "plaga_name": "Babosas",
+        "temporada_en_que_aparece": "Primavera-Otoño",
+        "temperatura_mejor_desarrollo": "15-20°C",
+        "combatirla_con_vinagre": true,
+        "combatirla_con_agua_oxigenada": false,
+        "daño_que_hacen": "Devoran hojas y tallos tiernos",
+        "remedio_casero_que_mejor_funciona": "Cerveza en recipientes enterrados a ras del suelo"
+      },
+      {
+        "id": 6,
+        "imagen": "arana-roja.jpg",
+        "plaga_name": "Araña roja",
+        "temporada_en_que_aparece": "Primavera-Verano",
+        "temperatura_mejor_desarrollo": "27-30°C",
+        "combatirla_con_vinagre": false,
+        "combatirla_con_agua_oxigenada": false,
+        "daño_que_hacen": "Succionan la savia de las hojas, causando decoloración",
+        "remedio_casero_que_mejor_funciona": "Jabón potásico diluido en agua"
+      },
+      {
+        "id": 7,
+        "imagen": "bicho-bolita.jpg",
+        "plaga_name": "Bicho bolita",
+        "temporada_en_que_aparece": "Primavera-Verano",
+        "temperatura_mejor_desarrollo": "20-25°C",
+        "combatirla_con_vinagre": false,
+        "combatirla_con_agua_oxigenada": false,
+        "daño_que_hacen": "Comen raíces y partes bajas de las plantas",
+        "remedio_casero_que_mejor_funciona": "Diatomeas esparcidas alrededor de las plantas"
+      },
+      {
+        "id": 8,
+        "imagen": "pulgones.jpg",
+        "plaga_name": "Pulgones",
+        "temporada_en_que_aparece": "Primavera-Verano",
+        "temperatura_mejor_desarrollo": "20-25°C",
+        "combatirla_con_vinagre": true,
+        "combatirla_con_agua_oxigenada": false,
+        "daño_que_hacen": "Succionan la savia y transmiten enfermedades",
+        "remedio_casero_que_mejor_funciona": "Agua jabonosa con ajo machacado"
+      },
+      {
+        "id": 9,
+        "imagen": "mosca-blanca.jpg",
+        "plaga_name": "Mosca blanca",
+        "temporada_en_que_aparece": "Primavera-Verano",
+        "temperatura_mejor_desarrollo": "25-30°C",
+        "combatirla_con_vinagre": false,
+        "combatirla_con_agua_oxigenada": false,
+        "daño_que_hacen": "Succionan la savia y segregan melaza",
+        "remedio_casero_que_mejor_funciona": "Trampa amarilla con aceite vegetal"
+      },
+      {
+        "id": 10,
+        "imagen": "trips.jpg",
+        "plaga_name": "Trips",
+        "temporada_en_que_aparece": "Primavera-Verano",
+        "temperatura_mejor_desarrollo": "25-30°C",
+        "combatirla_con_vinagre": false,
+        "combatirla_con_agua_oxigenada": false,
+        "daño_que_hacen": "Raspan y succionan las células de las plantas",
+        "remedio_casero_que_mejor_funciona": "Aceite de neem mezclado con jabón potásico"
+      },
+      {
+        "id": 11,
+        "imagen": "orugas.jpg",
+        "plaga_name": "Orugas",
+        "temporada_en_que_aparece": "Primavera-Verano",
+        "temperatura_mejor_desarrollo": "20-25°C",
+        "combatirla_con_vinagre": false,
+        "combatirla_con_agua_oxigenada": false,
+        "daño_que_hacen": "Devoran hojas y frutos",
+        "remedio_casero_que_mejor_funciona": "Infusión de ajenjo o Bacillus thuringiensis"
+      },
+      {
+        "id": 12,
+        "imagen": "minador.jpg",
+        "plaga_name": "Minador de hojas",
+        "temporada_en_que_aparece": "Primavera-Verano",
+        "temperatura_mejor_desarrollo": "20-25°C",
+        "combatirla_con_vinagre": false,
+        "combatirla_con_agua_oxigenada": false,
+        "daño_que_hacen": "Crean galerías en las hojas",
+        "remedio_casero_que_mejor_funciona": "Extracto de nim o aceite de neem"
+      },
+      {
+        "id": 13,
+        "imagen": "nematodos.jpg",
+        "plaga_name": "Nematodos",
+        "temporada_en_que_aparece": "Todo el año",
+        "temperatura_mejor_desarrollo": "15-30°C",
+        "combatirla_con_vinagre": false,
+        "combatirla_con_agua_oxigenada": false,
+        "daño_que_hacen": "Atacan las raíces causando deformaciones",
+        "remedio_casero_que_mejor_funciona": "Rotación de cultivos y abonos verdes"
+      },
+      {
+        "id": 14,
+        "imagen": "mosca-fruta.jpg",
+        "plaga_name": "Mosca de la fruta",
+        "temporada_en_que_aparece": "Verano-Otoño",
+        "temperatura_mejor_desarrollo": "22-28°C",
+        "combatirla_con_vinagre": true,
+        "combatirla_con_agua_oxigenada": false,
+        "daño_que_hacen": "Ponen huevos en frutas maduras, las larvas se alimentan de ellas",
+        "remedio_casero_que_mejor_funciona": "Trampas con vinagre de manzana y jabón"
+      },
+      {
+        "id": 15,
+        "imagen": "hormigas.jpg",
+        "plaga_name": "Hormigas",
+        "temporada_en_que_aparece": "Primavera-Verano",
+        "temperatura_mejor_desarrollo": "20-30°C",
+        "combatirla_con_vinagre": true,
+        "combatirla_con_agua_oxigenada": false,
+        "daño_que_hacen": "Dañan raíces y protegen a otras plagas como pulgones",
+        "remedio_casero_que_mejor_funciona": "Mezcla de bórax y azúcar"
+      }
+    ]

@@ -11,13 +11,13 @@
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="stylesheets/styles.css" rel="stylesheet" />
+        <link href="/stylesheets/styles.css" rel="stylesheet" />
     </head>
     <body>
         <!-- Navigation-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container px-4 px-lg-5">
-        <a class="navbar-brand" href="#!">Jardineria Vicente Lopez</a>
+        <a class="navbar-brand" href="/">Jardineria Vicente Lopez</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
@@ -34,7 +34,7 @@
         <header class="bg-dark py-5">
             <div class="container px-4 px-lg-5 my-5">
                 <div class="text-center text-white">
-                    <h1 class="display-4 fw-bolder">Mercado de Plantas</h1>
+                    <h1 class="display-4 fw-bolder">Mercado de Plantas - Plagas mas comunes</h1>
                    <!-- <p class="lead fw-normal text-white-50 mb-0">With this shop hompeage template</p>-->
                 </div>
             </div>
@@ -44,28 +44,28 @@
         <section class="py-5">
             <div class="container px-4 px-lg-5 mt-5">
                 <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-                    <% plantasArray.forEach(planta => { %>
+                    <% plagasArray.forEach(plaga => { %>
                         <div class="col mb-5">
                             <div class="card h-100">
                                 <!-- Product image-->
-                                <a href="/<%= planta.id %>">
-                                    <img class="card-img-top" src="images/<%= planta.imagen %>" alt="..." />
+                                <a href="/plagas/<%= plaga.id %>">
+                                    <img class="card-img-top" src="/images/<%= plaga.imagen %>" alt="..." />
                                 </a>
                                 <!-- Product details-->
                                 <div class="card-body p-4">
                                     <div class="text-center">
                                         <!-- Product name-->
-                                        <h5 class="fw-bolder"><%= planta.plant_name %></h5>
+                                        <h5 class="fw-bolder"><%= plaga.plaga_name %></h5>
                                         <!-- Product reviews-->
                                         <div class="d-flex justify-content-center small text-warning mb-2">
-                                            <p>Nativa de: <%= planta.nativa %></p>
+                                            <p>Nativa de: <%= plaga.temporada_en_que_aparece %></p>
                                         </div>
                                     </div>
                                 </div>
                                 <!-- Product actions-->
                                 <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                                     <div class="text-center">
-                                        <a class="btn btn-primary mt-auto" href="/<%= planta.id %>">Ver planta</a>
+                                        <a class="btn btn-primary mt-auto" href="/plagas/<%= plaga.id %>">mas info</a>
                                     </div>
                                 </div>
                             </div>

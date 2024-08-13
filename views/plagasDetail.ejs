@@ -1,0 +1,78 @@
+
+
+<!------ Include the above in your HEAD tag ---------->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Mercado de Plantas - Jardineria Vicente Lopez</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="/stylesheets/plantaCSS.css" rel="stylesheet" />
+    
+
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+  </head>
+
+  <body>
+    <div class="container">
+        <div class="card">
+            <div class="container-fluid">
+                <div class="wrapper row">
+                    <div class="preview col-md-6">
+                        <div class="preview-pic tab-content">
+                            <div class="tab-pane active" id="pic-1"><img src="/images/<%= plaga.imagen %>" /></div>
+                            <!-- Si tienes más imágenes, puedes agregar más tab-panes aquí -->
+                        </div>
+                        <!-- Si tienes miniaturas, puedes mantener esta sección, si no, puedes eliminarla -->
+                        <ul class="preview-thumbnail nav nav-tabs">
+                            <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="/images/<%= plaga.imagen %>" /></a></li>
+                            <!-- Más miniaturas aquí si las tienes -->
+                        </ul>
+                    </div>
+                    <div class="details col-md-6">
+                        <h3 class="product-title"><%= plaga.plaga_name %></h3>
+                        <p class="product-description">ID: <%= plaga.id %></p>
+                        <h4 class="price">Temporada en que aparece: <span><%= plaga.temporada_en_que_aparece %></span></h4>
+                        <p class="vote">Se desarrolla mejor en la temperatura: <strong><%= plaga.temperatura_mejor_desarrollo %></strong></p>
+                        <h5 class="sizes">Se puede combatir con vinagre? <%= plaga.combatirla_con_vinagre %></h5>
+                        <h5 class="sizes">Se puede combatir con agua oxigenada? <%= plaga.combatirla_con_agua_oxigenada %></h5>
+                        <h5 class="sizes">Que daño hacen? <%= plaga.daño_que_hacen %></h5>
+                        <h5 class="sizes">Remedio organico que mejor funciona? <%= plaga.remedio_casero_que_mejor_funciona %></h5>
+                        
+            <a href="/plagas" class="btn btn-primary">Volver a Página Principal</a>
+        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+</div>
+
+
+	<!-- /todos los productos -->
+
+	<!-- footer -->
+     <!-- Footer-->
+     <footer class="py-5 bg-dark">
+        <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Diego Alfonso Garcia Lopez - Jardineria Vicente Lopez</p></div>
+    </footer>
+	<!-- /footer -->
+</body>	
+</html>

@@ -1,13 +1,17 @@
 const fs = require ('fs');
 const path = require ('path');
 
-//Ubicación del archivo JSON
-const filePath = path.join(__dirname,'../data/plantas.json');
-//Lectura del archivo JSON y parseado a array
-const plantasArray = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+// Ubicación de los archivos JSON
+const plantasFilePath = path.join(__dirname, '../data/plantas.json');
+const plagasFilePath = path.join(__dirname, '../data/plagas.json');
+
+// Lectura de los archivos JSON y parseado a array
+const plantasArray = JSON.parse(fs.readFileSync(plantasFilePath, 'utf8'));
+const plagasArray = JSON.parse(fs.readFileSync(plagasFilePath, 'utf8'));
+
 
 //lista de productos
-const controllers = {
+const controllers = { 
   plantasmenu: (req,res) => {
       res.render('index', {plantasArray})
   },
@@ -15,10 +19,20 @@ const controllers = {
   detail: (req, res) => {
       const idToFind = req.params.id
       const planta = plantasArray.find (p => p.id == idToFind)
-     
-
       return res.render ('plantasDetail', {planta})
-      //return res.render ('detail', {product})
+  },
+
+  plagas: (req,res) => {
+        res.render('plagas', {plagasArray})
+  },
+
+  plagasDetail: (req, res) => {
+    const idToFind = req.params.id
+    const plaga = plagasArray.find (p => p.id == idToFind)
+   
+
+    return res.render ('plagasDetail', {plaga})
+    //return res.render ('detail', {product})
   },
 };
 
